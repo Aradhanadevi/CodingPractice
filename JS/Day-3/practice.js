@@ -24,3 +24,10 @@ console.log(aVar);
 
 console.log(typeof aVar); //This is boolean
 
+//Now lets see what is the typeof of null
+
+let a = undefined;
+let b = null;
+
+console.log(typeof a); //This is undefined
+console.log(typeof b); //This is object, this is a bug in js, it should be null but it is object, this is a well known bug in js and it will not be fixed because of backward compatibility issues.
