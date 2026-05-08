@@ -19,4 +19,26 @@ console.log(`I am going to pretend that I am writing
     without using backslash n and +. 
     `)
 
+//Now we will learn about substring and how to find its postion
 
+let str = "Hello, my name is Aradhana and I am 20 years old."; //This is a string and it is made up of characters and its starting index is 0
+
+console.log(str.indexOf("Aradhana")); //This will return the index of the first occurrence of the substring "Aradhana" in the string str, which is 18
+
+//Also you can specify from where you want it to start searching.
+
+console.log(str.indexOf("a", 20)); //This will return the index of the first occurrence of the substring "a" in the string str, starting from index 20, which is 28
+
+//If the substring is not found, it will return -1
+console.log(str.indexOf("Aradhana", 30)); //This will return -1 because there is no occurrence of the substring "Aradhana" in the string str starting from index 30
+
+
+//Now we will see how to get input from users
+
+//For that we will use prompt()
+
+//To get input from users we can use prompt() function, it will show a dialog box to the user and ask for input, and it will return the input as a string.
+
+let userInput = prompt("Please enter your name:"); //This will show a dialog box to the user and ask for input, and it will return the input as a string.
+
+console.log(`Hello, ${userInput}!`); //This will output the string "Hello, " followed by the value of userInput and then "!" using string interpolation.
