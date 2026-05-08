@@ -38,7 +38,5 @@ console.log(str.indexOf("Aradhana", 30)); //This will return -1 because there is
 //For that we will use prompt()
 
 //To get input from users we can use prompt() function, it will show a dialog box to the user and ask for input, and it will return the input as a string.
-
-let userInput = prompt("Please enter your name:"); //This will show a dialog box to the user and ask for input, and it will return the input as a string.
-
-console.log(`Hello, ${userInput}!`); //This will output the string "Hello, " followed by the value of userInput and then "!" using string interpolation.
+//There is prompt.html in day 4 folder refor to that fro prompt()
+ 
